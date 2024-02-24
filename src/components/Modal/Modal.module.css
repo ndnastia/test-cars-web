@@ -1,0 +1,135 @@
+.modal {
+    position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+}
+
+.modal-container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: absolute;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 24px;
+    background: rgb(255, 255, 255); 
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+    letter-spacing: 0%;
+   
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    
+}
+
+.modal-title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 8px;
+
+    .modal-title-model {
+        color: #3470FF;
+    }
+}
+
+.modal-desc {
+    margin-bottom: 14px;
+    color: rgba(18, 20, 23, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.info-container {
+    height: 140px;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+}
+
+.modal-info {
+    margin-bottom: 24px;
+    color: rgb(18, 20, 23);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.modal-second-title {
+    margin-bottom: 8px;
+    color: rgb(18, 20, 23);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.modal-features {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    color: rgba(18, 20, 23, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+   
+}
+
+
+.features-container{
+    margin-bottom: 24px;
+}
+.conditions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.modal-conditions {
+    display: flex;
+    gap: 8px;
+   
+}
+
+.conditions-item {
+    padding: 7px 15px;
+    border-radius: 35px;
+    color: rgb(54, 53, 53);
+    background: rgb(249, 249, 249);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -2%;
+}
+
+.modal-btn {
+    max-width: 168px;
+    border-radius: 12px;
+    background: rgb(52, 112, 255);
+    padding: 12px 40px 12px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+

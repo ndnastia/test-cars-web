@@ -1,9 +1,48 @@
 .banner {
-    padding-top: 150px;
+    position: relative;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/05/15/29/aston-martin-2118857_1280.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    width: 1440px;
+    height: 700px;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        z-index: 2;
+      }
+}
+
+.banner-context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    z-index: 3;
+    padding-top: 300px;
     text-align: center;
-    font-family: 'georgia';
-    font-weight: bold;
-    font-size: larger;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
     color: azure;
+}
+
+
+.banner-link {
+    border-radius: 12px;
+    background: rgb(52, 112, 255);
+    padding: 12px 99px;
+    width: 300px;
 }
 

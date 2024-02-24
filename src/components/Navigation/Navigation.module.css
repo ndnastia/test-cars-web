@@ -1,40 +1,43 @@
 .header {
-    border-bottom: solid 3px slateblue;
-    
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: azure;
-    
-    
+    z-index: 999;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'georgia';
+    font-family: Manrope;
+    font-size: 22px;
     font-weight: bold;
-    font-size: larger;
-    color: slateblue;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgb(52, 112, 255);
     padding: 20px;
     
 }
 
 .header-link {
-    font-family: 'georgia';
+    font-family: Manrope;
+    font-size: 22px;
     font-weight: bold;
-    font-size: large;
-    color: slateblue;
-    padding: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgb(52, 112, 255);
+    
     display: flex;
     align-items:first center;
     justify-content: flex-end;
-
     
     gap: 20px;
 
 }
 
 .header-link :hover {
-    color: indigo;
+   
     transition: all 0.3s ease-out;
 }

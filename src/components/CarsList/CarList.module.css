@@ -1,0 +1,193 @@
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+
+   
+  }
+  
+  .car-item {
+    position: relative;
+    width: calc(25% - 20px); 
+    border-radius: 12px;
+    
+  }
+  
+  
+  @media (max-width: 768px) {
+    .car-item {
+      width: calc(50% - 20px); 
+    }
+
+    
+  }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.list-title {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    .list-title-model {
+        color: #3470FF;
+    }
+}
+
+.list-desc {
+    margin-top: 8px;
+    margin-bottom: 28px;
+    height: 40px;
+    color: rgba(18, 20, 23, 0.5);
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.list-btn {
+    padding: 12px 99px;
+    border-radius: 12px;
+    background: rgb(52, 112, 255);
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0%;
+    align-content: center;
+
+    &:hover {
+        box-shadow: 10px 9px 36px -14px rgba(0,0,0,0.75);
+    }
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.favorite-button {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  height: 14px;
+  width: 16px;
+  background-color: transparent;
+}
+
+.load-more-btn {
+  padding: 12px 99px;
+  border-radius: 12px;
+  color: rgb(52, 112, 255);
+  background-color: transparent;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0%;
+  align-content: center;
+
+  &:hover {
+    color:cornflowerblue
+  }
+}
+
+.load-more-container {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 48px;
+  gap: 18px;
+  margin-bottom: 50px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-label {
+  color: rgb(138, 138, 137);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+.filter-btn {
+  border-radius: 12px;
+  background: rgb(52, 112, 255);
+  padding: 14px 44px 14px 44px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.filter-mileage {
+  display: flex;
+  width: 320px;
+  height: 48px; 
+  box-sizing: border-box;
+  border-radius: 14px;
+  background: rgb(247, 247, 251);
+  border: 1px solid lightgrey;
+  
+}
+
+.filter-mileage > :first-child {
+  border-right: 1px solid rgba(138, 138, 137, 0.2);
+  padding-right: 10px;
+}
+.filter-mileage input:focus {
+  outline: none;
+}
+
+.filter-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: gray;
+  
+}
+
+.input-item {
+  background-color: transparent;
+  width: 75px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: gray;
+  
+}
