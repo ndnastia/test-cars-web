@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-cars-web/static/css/main.85b797f1.css",
+    "main.js": "/test-cars-web/static/js/main.2029eb42.js",
+    "static/media/active.svg": "/test-cars-web/static/media/active.e49e82308e5c18848ca61fae14bc0d00.svg",
+    "static/media/normal.svg": "/test-cars-web/static/media/normal.14c1f2cc238af802475dc01841f4c976.svg",
+    "index.html": "/test-cars-web/index.html",
+    "static/media/x.svg": "/test-cars-web/static/media/x.d574e31d46f7a721ccae3e59794af9d1.svg",
+    "main.85b797f1.css.map": "/test-cars-web/static/css/main.85b797f1.css.map",
+    "main.2029eb42.js.map": "/test-cars-web/static/js/main.2029eb42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85b797f1.css",
+    "static/js/main.2029eb42.js"
+  ]
+}
